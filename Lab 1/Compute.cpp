@@ -1,0 +1,12 @@
+# include<iostream>
+using namespace std;
+int main(){
+	int a, b;
+	cout << "Enter two numbers:";
+	cin >> a >> b;
+	int sum = a + b;
+	int product = a * b;
+	cout << "Sum = " << sum;
+	cout << "Product = " << product;
+	return 0;
+}
